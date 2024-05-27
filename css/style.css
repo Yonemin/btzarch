@@ -106,7 +106,7 @@ div.inicial {
   color: rgb(0, 0, 0);
 }
 
-.a1{
+.a2{
   width: 300px;
   height: 400px;
   margin-top: 150px;
@@ -129,7 +129,7 @@ a{
   cursor: default;
 }
 
-.a2{
+.a3{
   width: 300px;
   height: 400px;
   margin-top: 150px;
@@ -140,7 +140,7 @@ a{
   transform: translateY(-10px);
 }
 
-.a3{
+.a4{
   width: 300px;
   height: 400px;
   margin-top: 150px;
@@ -180,14 +180,14 @@ a{
   transform: translateY(-10px);
 }
 
-/*Compu*/
-@media (min-width: 991px){
-
-}
-
 /*Cel*/
 @media (max-width: 768px) {
-
+  header{
+    height: 200px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
   .navegacion a {
     margin-left: 20px;
     font-size: 18px;
@@ -215,30 +215,41 @@ a{
     margin-top: 30px;
   }
 
+  .espacio-1{
+    width: 500px;
+    display: block;
+    margin-left: -65px;
+  }
+
   .btn2{
-    width: 700px;
+    width: 400px;
     height: 100px;
   }
 
-  .a1{
-    margin-bottom: 15px;
-    width: 700px;
+  .espacio-2{
     height: 100px;
-  }
-
-  .a2{
-    margin-bottom: 15px;
-    width: 700px;
-    height: 100px;
+    width: 500px;
+    margin-top: 250px;
+    margin-left: -395px;
+    display: block;
   }
   
   .btn3{
-    width: 700px;
+    width: 400px;
     height: 100px;
   }
 
-  .btn4{
-    width: 700px;
+  .espacio-3{
     height: 100px;
+    width: 500px;
+    margin-top: 500px;
+    margin-left: -500px;
+    display: block;
+  }
+
+  .btn4{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
   }
 }
